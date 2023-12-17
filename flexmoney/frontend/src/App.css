@@ -1,0 +1,43 @@
+ *{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+ }
+ 
+.container {
+ 
+  padding-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-color: #f0f0f0;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
+}
+.heading{
+  color: #333,
+}
+button {
+  padding: 10px;
+  color : white;
+  background-color: #4caf50;
+  cursor: pointer;
+  margin-top: 10px;
+}
+label {
+  margin: 10px 0;
+  color: #555;
+}
+input,select{
+  padding: 8px;
+  margin: 5px 0;
+}
+form {
+  display: flex;
+  flex-direction:column;
+  max-width: 300px;
+  margin: auto;
+}
